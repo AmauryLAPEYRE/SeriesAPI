@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: center;;
+}
+.flex-header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fecc00;
+  height: 118px;
+  width: 850px;
+}
+.flex-input {
+  width: 70%;
+}
+.flex-link {
+  position: relative;
+  right: 40%;
+  top: 23.5%;
+  display: flex;
+  align-items: center;
+}
+.flex-link a {
+  padding: 6.7px;
+}
+.flex-link img {
+  background-color: white;
+  padding: 4px;
+  height: 23px;
+}
+.flex-link a {
+  text-decoration: none;
+  color: #333333;
+  font-family: Arial;
+  font-weight: bold;
+}
+.image-size {
+  height: 50px;
+  margin-top: 4px;
+}
+input {
+  height: 27px;
+  width: 15vw;
+  margin-top: 12px;
+  color: #b3b3b3;
+  padding-left: 16px;
+  font-size: 13px;
+}
+button {
+  height: 32px;
+  background-color: #2b2b2b;
+  border: none;
+  color: white;
+  width: 140px;
+  letter-spacing: 2px;
+  font-size: 12px;
+}
+button:hover {
+  background-color: black;
+  cursor: pointer;
+}
+.example {
+  font-family: Arial;
+  font-size: 10px;
+  padding-top: 4px;
+  color: #333;
+}
+a:hover {
+  background-color: #ffe166;
+}
+body {
+  height: 100vh;
+  background-color: ;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+div {
+  width: 33%;
+}
+h2 {
+  text-align: center;
+  font-family: Arial;
+}
+.flex-container {
+  width: 33%;
+  margin: 20px;
+  background-color: #fef9e4;
+  font-family: Arial;
+}
+.summary {
+  text-align: center;
+  padding-top: 20px;
+}
+.image:hover {
+  cursor: pointer;
+}
+.image {
+  padding-top: 10px;
+}
+.status {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  font-weight: bold;
+  padding-top: 15px;
+}
+.genres {
+  width: 100%;
+  text-align: center;
+  padding-top: 5px;
+}
+
+
+
+
+
+
+
+.search {
+  padding-top: 30px;
+  justify-content: center;
+  display: flex;
+  width: 100vw;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+}
+.div_img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.div_status {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.hidden {
+  display: none;
+}
+@media (max-width: 700px) {
+main {
+  width: 100%;
+  flex-flow: column wrap;
+  height: auto;
+}
+h1 {
+  width: 100vw;
+}
+p {
+  width: 75vw;
+  padding-right: 20px;
+}
+
+input {
+  width: 30vw;
+}
+
+.div_img {
+  width: 100vw;
+}
